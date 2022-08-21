@@ -1,0 +1,9 @@
+.TopFixedBanner {
+    background-image: url("../images/topbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
+
+}
