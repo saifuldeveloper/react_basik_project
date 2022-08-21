@@ -1,5 +1,5 @@
 import React  from "react";
-import TopBanner from "../components/TopBanner";
+import TopBanner from "./components/TopBanner/TopBanner";
 
 
 
@@ -7,7 +7,7 @@ import TopBanner from "../components/TopBanner";
 function App() {
   return (
     <div>
-      <TopBanner/>     
+    <TopBanner />
     </div>
   );
 }
