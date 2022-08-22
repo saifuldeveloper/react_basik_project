@@ -1,3 +1,7 @@
+
+
+
+
 .TopFixedBanner {
     background-image: url("../image/topbanner.jpg");
     background-repeat: no-repeat;
@@ -30,6 +34,53 @@
     font-weight: 600;
     text-align: center;
 }
+/* ===========Navbar style =========== */
+.NavTitle{
+    font-family:'Montserrat ', sans-serif;
+    font-size: 24px;
+    color:#fff !important;
+    font-weight: 700;
+}
+.NavTitleScroll{
+    font-family:'Montserrat ', sans-serif;
+    font-size: 24px;
+    color:#007ACC !important;
+    font-weight: 700;
+}
+.navBackground{
+    -webkit-transition:background-color 400ms linea ;
+    -moz-transition:background-color 400ms linea ;
+    -o-transition:background-color 400ms linea ;
+    transition: background-color 400ms linear;
+    background-color: rgba(00, 00, 00, 00.0) !important;
+}
+.navBackgroundScroll{
+    -webkit-transition:background-color 400ms linea ;
+    -moz-transition:background-color 400ms linea ;
+    -o-transition:background-color 400ms linea ;
+    transition: background-color 400ms linear;
+    background-color: #ffffff !important;
+}
+.NavItem{
+    font-family:'Montserrat ', sans-serif;
+    font-size: 16px;
+    color:#ffffff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.NavItemScroll{
+    font-family:'Montserrat ', sans-serif;
+    font-size: 16px;
+    color:#000000 !important;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+
+
+
+
+
 .ServiceMainTitle{
     font-family:'Montserrat ', sans-serif;
     font-size: 30px;
