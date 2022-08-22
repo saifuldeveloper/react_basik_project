@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Fragment } from "react";
+import "../../asset/css/custom.css";
+import "../../asset/css/bootstrap.min.css";
 import { Navbar,Container,Nav } from "react-bootstrap";
 
 

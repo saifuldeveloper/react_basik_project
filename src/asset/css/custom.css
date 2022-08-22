@@ -111,3 +111,12 @@
 .ServiceCard:hover{
     box-shadow: 0 0 8px 0 rgba(0, 112, 230, 0.5);
 }
+
+.des{
+    font-family:'Raleway ', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #484545E0;
+    text-justify: auto;
+}
