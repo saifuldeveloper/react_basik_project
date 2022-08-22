@@ -120,3 +120,29 @@
     color: #484545E0;
     text-justify: auto;
 }
+/* ========Summary Style Css */
+
+.SummaryFixedBanner {
+    background-image: url("../image/summarybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:350px;
+    background-attachment: fixed;
+
+}
+.SummaryBannerOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+    padding: absolute;
+    width: 100%;
+}
+.SummarySection{
+    margin-top: 4rem;
+}
+.CountNumber{
+    color: #ffffff;
+    font-family:'Montserrat ', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
