@@ -30,3 +30,33 @@
     font-weight: 600;
     text-align: center;
 }
+.ServiceMainTitle{
+    font-family:'Montserrat ', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    color: #007ACC;
+}
+.ServiceName{
+    font-family:'Raleway ', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.ServiceDescription{
+    font-family:'Raleway ', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #484545E0;
+}
+.ServiceCard{
+    margin: 5px 5ox 5px 5px;
+    padding: 60px 30px 60px 30px;
+    height: 22rem;
+    box-shadow: 0 0 8px 0 rgba(0, 112, 230, 0.2);
+}
+.ServiceCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0, 112, 230, 0.5);
+}
