@@ -228,3 +228,26 @@
     font-size: 20px;
     text-decoration: none;
 }
+/* =========================VIdeo Play Button============================ */
+.VideoCard{
+    margin: 50px auto;
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.PlayBtn{
+    font-size: 48px;
+    cursor: pointer;
+    color: #007ACC;
+}
+.VideoTitle{
+    font-family:'Montserrat ', sans-serif!important;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(7, 5, 2);
+}
+.VIdeoDescription{
+    font-family: 'Raleway'sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+}

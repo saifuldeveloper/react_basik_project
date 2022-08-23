@@ -65,7 +65,7 @@ export default class Cources extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col lg={6} sm={12} md={12} className="CouserPartiton">
+            <Col lg={6} sm={12} md={12} >
               <Row>
                 <Col lg={6} sm={12} md={6}>
                   <img className="CourseImage" src={CourcesOne} alt={CourcesOne} />
