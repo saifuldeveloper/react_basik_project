@@ -203,3 +203,28 @@
     font-family: 600 !important;
 
 }
+/* =======================Cources section css====================== */
+.CouserPartiton{
+    padding: 10px;
+    margin-top:20px;
+}
+
+.CourseImage{
+    width: 100%;
+}
+.CourseTitle{
+    font-family:'Montserrat ', sans-serif!important;
+    font-size: 22x;
+    font-family: 600!important;
+}
+.CourseDescription{
+    font-family:'Raleway ', sans-serif!important;
+    font-size: 15px;
+    font-family: 600!important;
+}
+.CourseDetails{
+    font-size: 'Raleway',sans-serif !important;
+    font-family: 600!important;
+    font-size: 20px;
+    text-decoration: none;
+}
