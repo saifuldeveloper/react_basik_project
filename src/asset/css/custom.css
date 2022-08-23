@@ -120,7 +120,7 @@
     color: #484545E0;
     text-justify: auto;
 }
-/* ========Summary Style Css */
+/* ========Summary Style Css start===== */
 
 .SummaryFixedBanner {
     background-image: url("../image/summarybg.jpg");
@@ -132,7 +132,7 @@
 
 }
 .SummaryBannerOverlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     min-height: 350px;
     padding: absolute;
     width: 100%;
@@ -145,4 +145,40 @@
     font-family:'Montserrat ', sans-serif;
     font-size: 48px;
     font-weight: 600;
+}
+.CountTitle{
+    color:#ffffff;
+    font-family:'Raleway ', sans-serif;
+    font-size: 22px;
+    font-weight: 600px;
+}
+.CountSection{
+    margin-top:15% !important;
+}
+
+.CardWork{
+    margin-top:15% !important;
+
+}
+.CardTitle{
+    font-family:'Montserrat ', sans-serif !important;
+    font-size:30px !important;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.CardSubTitle{   
+    font-family:'Raleway ', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15%;
+    padding:3px;
+    margin: 0;
+}
+.IconBullet{
+    font-size: 16px;
+    color: #007ACC;
+    padding-right: 5px;
 }
