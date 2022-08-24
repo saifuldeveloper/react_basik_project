@@ -13,9 +13,9 @@ export default class Footer extends Component {
   render() {
     return (
       <Fragment>
-        <Container fluid={true} className="text-center pt-5 ">
+        <Container  className=" pt-5 ">
           <Row>
-            <Col md={6} sm={12} lg={3} className=" FooterSection text-justify">
+            <Col md={6} sm={12} lg={3} className=" FooterSection text-justify pl-5 ml-5" >
               <h1 className="ServiceName">Follow </h1>
               <p className="FooterInformationDesc"><FontAwesomeIcon className="FooterSocialcon" icon={faFacebook} />Facebook
               </p>
@@ -37,7 +37,7 @@ export default class Footer extends Component {
               <a href="#" className="FooterInformationDesc">Contacat Me</a>
               <br />
             </Col>
-            <Col md={6} sm={12} lg={3}>
+            <Col md={6} sm={12} lg={3} classNam="text-end">
               <h1 className="ServiceName">Follow </h1>
               <p className="FooterInformationDesc">Facebook</p>
               <p className="FooterInformationDesc"> Demo Image Designing Is A Key For </p>
@@ -45,6 +45,14 @@ export default class Footer extends Component {
             </Col>
           </Row>
         </Container>
+        <Container fluid={true} className="text-center bg-primary py-3">
+                   <Row className="justify-content-center">
+                     <Col>
+                     <a className="ConpyRightsection" href="#">Saiful.com &copy; 2020 -2022</a>
+                     </Col>
+                    </Row>   
+        </Container>
+       
       </Fragment>
     );
   }
