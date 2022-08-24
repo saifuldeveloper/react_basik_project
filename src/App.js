@@ -7,6 +7,7 @@ import Summary from "./components/Summary/Summary";
 import RecentProject from "./components/RecentProject/RecentProject";
 import Cources from "./components/Cources/Cources";
 import Video from "./components/Video/Video";
+import ClientReview from "./components/ClientReview/ClientReview";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <RecentProject />
     <Cources />
     <Video />
+    <ClientReview />
     
     </div>
   );

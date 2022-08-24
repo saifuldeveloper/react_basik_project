@@ -251,3 +251,13 @@
     font-size: 15px;
     font-weight: 400;
 }
+
+/* ==========================Clent Review Section Css====================================*/
+.ClientImage{
+    margin: 0 auto;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border:1px solid #007ACC;
+
+}
