@@ -261,3 +261,23 @@
     border:1px solid #007ACC;
 
 }
+/* =============================Footer css==================================== */
+.FooterSection{
+    text-justify: auto;
+
+}
+.FooterInformationDesc{
+    text-decoration: none;
+    font-size: 15px;
+    color:#5d5555;
+    padding: 0px;
+    margin: 0px;
+}
+.FooterSocialcon{
+    text-decoration: none;
+    font-size: 16px;
+    color:#007ACC;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 7px;
+}

@@ -8,6 +8,7 @@ import RecentProject from "./components/RecentProject/RecentProject";
 import Cources from "./components/Cources/Cources";
 import Video from "./components/Video/Video";
 import ClientReview from "./components/ClientReview/ClientReview";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Cources />
     <Video />
     <ClientReview />
+    <Footer />
     
     </div>
   );
