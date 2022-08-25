@@ -11,7 +11,7 @@ export default class RecentProject extends Component {
         <Container className="text-center">
         <h1 className="ServiceMainTitle">RECENT PORJECT </h1>
           <Row>
-            <Col xs={12} sm={12} md={6} lg={4}>
+            <Col xs={12} sm={12} md={6} lg={4} className="p-2">
               <Card className="ProjectCard">
                 <Card.Img variant="top" src={RecectprojectOne}/>
                 <Card.Body>
@@ -24,7 +24,7 @@ export default class RecentProject extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={12} md={6} lg={4}>
+            <Col xs={12} sm={12} md={6} lg={4} className="p-2">
               <Card className="ProjectCard">
                 <Card.Img variant="top" src={RecectprojectTwo}/>
                 <Card.Body>
@@ -37,7 +37,7 @@ export default class RecentProject extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={12} md={6} lg={4}>
+            <Col xs={12} sm={12} md={6} lg={4} className="p-2">
               <Card className="ProjectCard">
                 <Card.Img
                   variant="top"src={RecectprojectThree} height="240px"/>

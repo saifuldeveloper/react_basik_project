@@ -12,7 +12,7 @@ export default class Services extends Component {
         <Container className="text-center">
           <h1 className="ServiceMainTitle">MY SERVICE</h1>
           <Row>
-            <Col lg={4} md={6} sm={12}>
+            <Col lg={4} md={6} sm={12} className="p-2">
               <div className="ServiceCard  text-center">
                 <img src={WebLgo} height="60px" alt="WebLgo" />
                 <h2 className="ServiceName">Web Development</h2>
@@ -22,7 +22,7 @@ export default class Services extends Component {
                 </p>
               </div>
             </Col>
-            <Col lg={4} md={6} sm={12}>
+            <Col lg={4} md={6} sm={12} className="p-2">
               <div className="ServiceCard text-center">
                 <img src={mobileLogo} height="60px" alt="WebLgo" />
                 <h2 className="ServiceName">Web Development</h2>
@@ -32,7 +32,7 @@ export default class Services extends Component {
                 </p>
               </div>
             </Col>
-            <Col lg={4} md={6} sm={12}>
+            <Col lg={4} md={6} sm={12} className="p-2">
               <div className="ServiceCard text-center">
                 <img src={graphicLogo} height="60px" alt="WebLgo" />
                 <h2 className="ServiceName">Web Development</h2>
