@@ -306,3 +306,24 @@
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
   }
+
+  /* ================================Page Top Design================================= */
+
+  .TopPageFixedBanner {
+    background-image: url("../image/topbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.TopPageBannerOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+    padding: absolute;
+    width: 100%;
+}
+.TopContent {
+    padding-top: 160px; 
+}
