@@ -8,13 +8,16 @@ import Courcespage from "./Pages/Courcespage";
 import Portfolio from "./Pages/Portfolio";
 import ContactSection from './components/ContactSection/ContactSection';
 import Contactpage from "./Pages/Contactpage";
+import Servicepage from "./Pages/Servicepage";
+
 
 function App() {
   return (
     <div>
       <Fragment>
         {/* <Portfolio /> */}
-       <Contactpage />
+       {/* <Contactpage /> */}
+       <Servicepage/>
       </Fragment>
     </div>
   );
