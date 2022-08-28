@@ -6,12 +6,15 @@ import TopNavigation from "./components/TopNavigation/TopNavigation";
 import AboutPage from "./Pages/AboutPage";
 import Courcespage from "./Pages/Courcespage";
 import Portfolio from "./Pages/Portfolio";
+import ContactSection from './components/ContactSection/ContactSection';
+import Contactpage from "./Pages/Contactpage";
 
 function App() {
   return (
     <div>
       <Fragment>
-        <Portfolio />
+        {/* <Portfolio /> */}
+       <Contactpage />
       </Fragment>
     </div>
   );

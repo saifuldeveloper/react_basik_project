@@ -327,3 +327,10 @@
 .TopContent {
     padding-top: 160px; 
 }
+/* ======Conatact Page style */
+
+forn-control:focus{
+    border:2px !important;
+    border: #007ACC;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}

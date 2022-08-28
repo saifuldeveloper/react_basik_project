@@ -4,7 +4,7 @@ import RecectprojectTwo from "../../asset/image/recectprojectTwo.jpg";
 import RecectprojectOne from "../../asset/image/recentprojectOne.jpg";
 import RecectprojectThree from "../../asset/image/recentprojectThree.jpg";
 
-export default class AllPortfolio extends Component {
+export default class AllPortfolio extends Component {  
   render() {
     return (
       <Fragment>
