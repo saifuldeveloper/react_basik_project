@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import "../../asset/css/custom.css";
 import "../../asset/css/bootstrap.min.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default class TopNavigation extends Component {
   constructor() {
@@ -21,6 +22,7 @@ export default class TopNavigation extends Component {
         nabarTitle: "NavTitleScroll",
         navBarBack: "navBackgroundScroll",
         navBarItem: "NavItemScroll",
+
       });
     } else if (window.scrollY < 100) {
       this.setState({
@@ -54,24 +56,12 @@ export default class TopNavigation extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  HOME
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  SERVICES
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  COURCES
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  PORTFOLIO
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  CONTACT
-                </Nav.Link>
-                <Nav.Link className={this.state.navBarItem} href="#deets">
-                  ABOUT
-                </Nav.Link>
+                <Link  className={this.state.navBarItem} to="/">HOME</Link>
+                <Link  className={this.state.navBarItem} to="/service"> SERVICES</Link>
+                <Link  className={this.state.navBarItem} to="/cources"> COURCES</Link>
+                <Link  className={this.state.navBarItem} to="/portfolio"> PORTFOLIO</Link>
+                <Link  className={this.state.navBarItem}  to="/contact"> CONTACT</Link>
+                <Link className={this.state.navBarItem}  to="/about"> ABOUT</Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

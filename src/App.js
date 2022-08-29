@@ -9,15 +9,18 @@ import Portfolio from "./Pages/Portfolio";
 import ContactSection from './components/ContactSection/ContactSection';
 import Contactpage from "./Pages/Contactpage";
 import Servicepage from "./Pages/Servicepage";
+import { BrowserRouter } from "react-router-dom";
+import AppRoute from './Router/AppRoute';
+ 
 
 
 function App() {
   return (
     <div>
       <Fragment>
-        {/* <Portfolio /> */}
-       {/* <Contactpage /> */}
-       <Servicepage/>
+      <BrowserRouter>
+       <AppRoute/>
+      </BrowserRouter>
       </Fragment>
     </div>
   );

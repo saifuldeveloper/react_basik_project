@@ -61,19 +61,26 @@
     transition: background-color 400ms linear;
     background-color: #ffffff !important;
 }
+.NavDesign{
+    padding-right: 20px;
+}
 .NavItem{
     font-family:'Montserrat ', sans-serif;
     font-size: 16px;
     color:#ffffff !important;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none !important;
+    border: none !important;
+    padding-right: 10px;
 }
 .NavItemScroll{
     font-family:'Montserrat ', sans-serif;
     font-size: 16px;
     color:#000000 !important;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none !important;
+    border: none  !important;
+    padding-right: 10px;
 }
 
 
