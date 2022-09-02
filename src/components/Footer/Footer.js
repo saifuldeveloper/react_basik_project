@@ -7,6 +7,8 @@ import { Row, Col } from "react-bootstrap"
 import {faFacebook} from "@fortawesome/free-brands-svg-icons"
 import {faYoutube} from "@fortawesome/free-brands-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
+import { Link } from "react-router-dom";
+
 
 
 export default class Footer extends Component {
@@ -38,10 +40,10 @@ export default class Footer extends Component {
               <br />
             </Col>
             <Col md={6} sm={12} lg={3} classNam="text-end">
-              <h1 className="ServiceName">Follow </h1>
-              <p className="FooterInformationDesc">Facebook</p>
-              <p className="FooterInformationDesc"> Demo Image Designing Is A Key For </p>
-              <p className="FooterInformationDesc"> Software Development </p>
+              <h1 className="ServiceName">Legal </h1>
+              <Link exact  className="FooterInformationDesc"  to="/refound"> Refound</Link>
+              <p className="FooterInformationDesc">Terms And Condition</p>
+              <p className="FooterInformationDesc"> Privacy Policy</p>
             </Col>
           </Row>
         </Container>

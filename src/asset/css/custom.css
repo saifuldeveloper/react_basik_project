@@ -1,7 +1,4 @@
 
-
-
-
 .TopFixedBanner {
     background-image: url("../image/topbanner.jpg");
     background-repeat: no-repeat;
@@ -67,20 +64,20 @@
 .NavItem{
     font-family:'Montserrat ', sans-serif;
     font-size: 16px;
-    color:#ffffff !important;
+    color:#ffffff;
     font-weight: 600;
     text-decoration: none !important;
     border: none !important;
-    padding-right: 10px;
+    padding-right: 10px !important;; 
 }
 .NavItemScroll{
     font-family:'Montserrat ', sans-serif;
     font-size: 16px;
-    color:#000000 !important;
+    color:#242020 !important;
     font-weight: 600;
     text-decoration: none !important;
-    border: none  !important;
-    padding-right: 10px;
+    border: none;
+    padding-right: 10px !important;
 }
 
 

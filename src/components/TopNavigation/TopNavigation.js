@@ -28,10 +28,10 @@ export default class TopNavigation extends Component {
       this.setState({
         navVariant: "dark",
         nabarTitle: "NavTitle",
-        navBarBack: "navBackground",
-        navBarItem: "navItem",
+        navBarBack: "navBackground",      
       });
     }
+    
   };
 
   componentDidMount() {
@@ -56,12 +56,14 @@ export default class TopNavigation extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Link  className={this.state.navBarItem} to="/">HOME</Link>
-                <Link  className={this.state.navBarItem} to="/service"> SERVICES</Link>
-                <Link  className={this.state.navBarItem} to="/cources"> COURCES</Link>
-                <Link  className={this.state.navBarItem} to="/portfolio"> PORTFOLIO</Link>
-                <Link  className={this.state.navBarItem}  to="/contact"> CONTACT</Link>
-                <Link className={this.state.navBarItem}  to="/about"> ABOUT</Link>
+                <Link exact  activeStyle={{ color:'#007ACC'}} className={this.state.navBarItem} to="/">HOME</Link>
+                <Link  exact  activeStyle={{ color:'#007ACC'}} className={this.state.navBarItem} to="/service"> SERVICES</Link>
+                <Link  exact activeStyle={{ color:'#007ACC'}} className={this.state.navBarItem} to="/cources"> COURCES</Link>
+                <Link  exact activeStyle={{ color:'#007ACC'}} className={this.state.navBarItem} to="/portfolio"> PORTFOLIO</Link>
+                <Link exact activeStyle={{ color:'#007ACC'}} className={this.state.navBarItem}  to="/contact"> CONTACT</Link>
+                <Link exact activeStyle={{ color:'#007ACC'}} className={this.state.navBarItem}  to="/about"> ABOUT</Link>
+
+
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Fragment>
-      <BrowserRouter>
+       <BrowserRouter>
        <AppRoute/>
       </BrowserRouter>
       </Fragment>
