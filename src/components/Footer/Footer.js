@@ -32,18 +32,15 @@ export default class Footer extends Component {
             </Col>
             <Col md={6} sm={12} lg={3}>
               <h1 className="ServiceName">Infroamtion </h1>
-              <a href="#" className="FooterInformationDesc">About Me</a>
-              <br />
-              <a href="#" className="FooterInformationDesc">My Reesume</a>
-              <br />
-              <a href="#" className="FooterInformationDesc">Contacat Me</a>
+              <Link   className="FooterInformationDesc"  to="/about"> About Me</Link><br />
+              <Link   className="FooterInformationDesc"  to="/contact"> Conatact Me</Link><br />
               <br />
             </Col>
             <Col md={6} sm={12} lg={3} classNam="text-end">
               <h1 className="ServiceName">Legal </h1>
-              <Link exact  className="FooterInformationDesc"  to="/refound"> Refound</Link>
-              <p className="FooterInformationDesc">Terms And Condition</p>
-              <p className="FooterInformationDesc"> Privacy Policy</p>
+              <Link   className="FooterInformationDesc"  to="/refound"> Refound</Link><br />
+              <Link   className="FooterInformationDesc"  to="/terms"> Terms And Condition</Link><br />
+              <Link    className="FooterInformationDesc"  to="/privacy"> Privacy Policy</Link>
             </Col>
           </Row>
         </Container>

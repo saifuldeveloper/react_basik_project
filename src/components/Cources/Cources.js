@@ -5,6 +5,7 @@ import CourcesTwo from "../../asset/image/corsetwo.jpg";
 import CourcesThree from "../../asset/image/coursethree.jpg";
 import CourcesFour from "../../asset/image/courseFour.jpg";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 
 export default class Cources extends Component {
@@ -27,7 +28,7 @@ export default class Cources extends Component {
                     ummy text of the printing and
                     typesetting industry. 
                   </p>
-                  <a className="CourseDetails" href="#" >Detils</a>
+                  <Link className="CourseDetails"  to="/CourseDetails"> Details</Link><br />
                 </Col>
               </Row>
             </Col>

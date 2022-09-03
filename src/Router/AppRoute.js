@@ -7,6 +7,10 @@ import Portfolio from './../Pages/Portfolio';
 import Contactpage from './../Pages/Contactpage';
 import AboutPage from './../Pages/AboutPage';
 import Refoundpage from '../Pages/Refoundpage';
+import Termspage from '../Pages/Termspage';
+import PrivacyPlicypage from '../Pages/PrivacyPlicypage';
+import ProjectDetailspage from '../Pages/ProjectDetailspage';
+import CourcesDetalspage from '../Pages/CourcesDetalspage';
 
 export default class AppRoute extends Component {
   render() {
@@ -22,6 +26,13 @@ export default class AppRoute extends Component {
             <Route path="/contact" element={<Contactpage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/refound" element={<Refoundpage />} />
+            <Route path="/terms" element={<Termspage />} />
+            <Route path="/privacy" element={<PrivacyPlicypage />} />
+            <Route path="/ProjectDetails" element={<ProjectDetailspage />} />
+            <Route path="/CourseDetails" element={<CourcesDetalspage />} />
+            
+
+            
 
 
          </Routes>
