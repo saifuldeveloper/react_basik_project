@@ -49,8 +49,9 @@ export default class TopNavigation extends Component {
           expand="lg"
         >
           <Container>
-            <Navbar.Brand className={this.state.nabarTitle} href="#home">
-              CODER{" "}
+            <Navbar.Brand>
+            <Link className={this.state.nabarTitle} to="/">CODER</Link>
+             
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

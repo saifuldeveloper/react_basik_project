@@ -5,6 +5,9 @@ import TopNavigation from "../components/TopNavigation/TopNavigation"
 import TermsCondition from './../components/TermsCondition/TermsCondition';
 
 export default class Termspage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
     <Fragment>

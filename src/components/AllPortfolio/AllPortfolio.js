@@ -3,6 +3,7 @@ import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import RecectprojectTwo from "../../asset/image/recectprojectTwo.jpg";
 import RecectprojectOne from "../../asset/image/recentprojectOne.jpg";
 import RecectprojectThree from "../../asset/image/recentprojectThree.jpg";
+import { Link } from 'react-router-dom';
 
 export default class AllPortfolio extends Component {  
   render() {
@@ -19,7 +20,7 @@ export default class AllPortfolio extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button variant="primary">Details</Button>
+                  <Button variant="primary"><Link className="link_style" to="ProjectDetails"> Detils</Link></Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -32,7 +33,7 @@ export default class AllPortfolio extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button variant="primary">Details</Button>
+                  <Button variant="primary"><Link className="link_style" to="ProjectDetails"> Detils</Link></Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -46,7 +47,7 @@ export default class AllPortfolio extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button variant="primary">Details</Button>
+                  <Button variant="primary"><Link className="link_style" to="ProjectDetails"> Detils</Link></Button>
                 </Card.Body>
               </Card>
             </Col>

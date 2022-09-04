@@ -5,6 +5,9 @@ import CouseDeatails from './../components/CourseDetails/CouseDeatails';
 
 
 export default class CourcesDetalspage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
      <Fragment>

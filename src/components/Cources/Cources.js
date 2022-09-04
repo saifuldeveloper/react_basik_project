@@ -45,7 +45,7 @@ export default class Cources extends Component {
                     ummy text of the printing and
                     typesetting industry. 
                   </p>
-                  <a className="CourseDetails" href="#" >Detils</a>
+                  <Link className="CourseDetails"  to="/CourseDetails"> Details</Link><br />
                 </Col>
               </Row>
             </Col>
@@ -62,7 +62,7 @@ export default class Cources extends Component {
                     ummy text of the printing and
                     typesetting industry. 
                   </p>
-                  <a className="CourseDetails" href="#" >Detils</a>
+                  <Link className="CourseDetails"  to="/CourseDetails"> Details</Link><br />
                 </Col>
               </Row>
             </Col>
@@ -79,7 +79,7 @@ export default class Cources extends Component {
                     ummy text of the printing and
                     typesetting industry. 
                   </p>
-                  <a className="CourseDetails" href="#" >Detils</a>
+                  <Link className="CourseDetails"  to="/CourseDetails"> Details</Link><br />
                 </Col>
               </Row>
             </Col>
