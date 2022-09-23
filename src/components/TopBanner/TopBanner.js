@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 export default class TopBanner extends Component {
+
   render() {
     return (
       <Fragment>
@@ -11,8 +12,10 @@ export default class TopBanner extends Component {
               <Row>
                 <Col className="text-center">
                   <h1 className="TopTitle">Software Development</h1>
-                  <h4 className="TopSubTitle">Mobile Application Development</h4>
-                    <Button variant="primary">More Info</Button>
+                  <h4 className="TopSubTitle">
+                    Mobile Application Development
+                  </h4>
+                  <Button variant="primary">More Info</Button>
                 </Col>
               </Row>
             </Container>
